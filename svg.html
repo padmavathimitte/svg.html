@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Embedding SVG in HTML</title>
+</head>
+<body>
+    <svg width="300" height="200">
+        <text x="10" y="20" style="font-size:14px;">
+            Your browser support SVG.
+        </text>
+        Sorry, your browser does not support SVG.
+    </svg>
+
+	<p>Drawing a Line
+	
+	<svg width="300" height="200">
+   	 <line x1="50" y1="50" x2="250" y2="150" style="stroke:red; stroke-width:3;" />
+	</svg></P>
+	<P>Drawing a Rectangle
+
+	<svg width="300" height="200">
+    		<rect x="50" y="50" width="200" height="100" style="fill:orange; stroke:black; stroke-width:3;" />
+	</svg></P>
+	<P>Drawing a Circle
+	
+	<svg width="300" height="200">
+    		<circle cx="150" cy="100" r="70" style="fill:lime; stroke:black; stroke-width:3;" />
+	</svg></P>
+	<p>Drawing Text with SVG</p>
+	
+	<P><svg width="300" height="200">
+   	 <text x="20" y="30" style="fill:purple; font-size:22px;">
+       		 Welcome to Our Website!
+	</text></p>
+	 		<p><text x="20" y="30" dx="-230" dy="20" style="fill:navy; font-size:14px;">
+       				 Here you will find lots of useful information.</text>
+   	</svg></p>
+	<svg width="300" height="200">
+    	<text x="30" y="15" style="fill:purple; font-size:22px; transform:rotate(30deg);">
+        <tspan style="fill:purple; font-size:22px;">
+            Welcome to Our Website!
+        </tspan>
+        <tspan dx="-230" dy="20" style="fill:navy; font-size:14px;">
+            Here you will find lots of useful information.
+        </tspan>
+   	 </text>
+	</svg>
+	
+
+</body>
+</html>
